@@ -18,7 +18,7 @@ function calculate(){
 function backspace() {
     display.value = display.value.slice(0, -1);
 }
-display.value = eval(display.value);
+
 function calculate() {
     try {
         let result = eval(display.value);
@@ -36,3 +36,4 @@ function calculate() {
         display.value = "Error";
     }
 }
+
